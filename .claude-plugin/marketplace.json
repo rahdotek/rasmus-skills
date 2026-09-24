@@ -1,0 +1,57 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rasmus-skills",
+  "description": "Rasmus' samlede skills og plugins. Hver post peger på den originale kilde, så opdateringer kommer automatisk.",
+  "owner": {
+    "name": "Rasmus",
+    "url": "https://github.com/rahdotek"
+  },
+  "plugins": [
+    {
+      "name": "humanizer",
+      "description": "Fjerner tegn på AI-skrevet tekst. Original: blader/humanizer.",
+      "source": { "source": "github", "repo": "blader/humanizer" },
+      "category": "writing",
+      "homepage": "https://github.com/blader/humanizer"
+    },
+    {
+      "name": "last30days",
+      "description": "Research af et emne på tværs af Reddit, X, YouTube, HN m.fl. fra de sidste 30 dage.",
+      "source": { "source": "github", "repo": "mvanhorn/last30days-skill" },
+      "category": "research",
+      "homepage": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "name": "img2threejs",
+      "description": "Genskaber et objekt fra et referencebillede som en procedural Three.js-model.",
+      "source": { "source": "github", "repo": "img2threejs/img2threejs" },
+      "strict": false,
+      "skills": ["./"],
+      "category": "design",
+      "homepage": "https://github.com/img2threejs/img2threejs"
+    },
+    {
+      "name": "impeccable",
+      "description": "Frontend-design: 1 skill med 24 kommandoer (/impeccable polish, audit, critique osv.).",
+      "source": { "source": "git-subdir", "url": "https://github.com/pbakaus/impeccable.git", "path": "plugin" },
+      "category": "design",
+      "homepage": "https://impeccable.style"
+    },
+    {
+      "name": "playwright-cli",
+      "description": "Browser-automatisering og test med Microsofts playwright-cli. Kræver: npm install -g @playwright/cli",
+      "source": { "source": "github", "repo": "microsoft/playwright-cli" },
+      "strict": false,
+      "skills": ["./skills/"],
+      "category": "development",
+      "homepage": "https://github.com/microsoft/playwright-cli"
+    },
+    {
+      "name": "claude-mem",
+      "description": "Hukommelse på tværs af Claude Code-sessioner. Kun Claude Code.",
+      "source": { "source": "git-subdir", "url": "https://github.com/thedotmack/claude-mem.git", "path": "plugin" },
+      "category": "productivity",
+      "homepage": "https://github.com/thedotmack/claude-mem"
+    }
+  ]
+}
