@@ -11,8 +11,8 @@
       "name": "humanizer",
       "description": "Fjerner tegn på AI-skrevet tekst. Original: blader/humanizer.",
       "source": {
-        "source": "github",
-        "repo": "blader/humanizer"
+        "source": "url",
+        "url": "https://github.com/blader/humanizer.git"
       },
       "category": "writing",
       "homepage": "https://github.com/blader/humanizer"
@@ -21,8 +21,8 @@
       "name": "last30days",
       "description": "Research af et emne på tværs af Reddit, X, YouTube, HN m.fl. fra de sidste 30 dage.",
       "source": {
-        "source": "github",
-        "repo": "mvanhorn/last30days-skill"
+        "source": "url",
+        "url": "https://github.com/mvanhorn/last30days-skill.git"
       },
       "category": "research",
       "homepage": "https://github.com/mvanhorn/last30days-skill"
@@ -31,8 +31,8 @@
       "name": "img2threejs",
       "description": "Genskaber et objekt fra et referencebillede som en procedural Three.js-model.",
       "source": {
-        "source": "github",
-        "repo": "img2threejs/img2threejs"
+        "source": "url",
+        "url": "https://github.com/img2threejs/img2threejs.git"
       },
       "strict": false,
       "skills": [
@@ -56,8 +56,8 @@
       "name": "playwright-cli",
       "description": "Browser-automatisering og test med Microsofts playwright-cli. Kræver: npm install -g @playwright/cli",
       "source": {
-        "source": "github",
-        "repo": "microsoft/playwright-cli"
+        "source": "url",
+        "url": "https://github.com/microsoft/playwright-cli.git"
       },
       "strict": false,
       "skills": [
@@ -81,8 +81,8 @@
       "name": "ui-ux-pro-max",
       "description": "UI/UX-designviden: 79 stilarter, 192 paletter, 74 fontpar, UX-regler og stack-guides med søgescript. Inkl. repoets skills til brand, design system, slides, bannere og UI-styling.",
       "source": {
-        "source": "github",
-        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+        "source": "url",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git"
       },
       "category": "design",
       "homepage": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
