@@ -8,6 +8,13 @@
   },
   "plugins": [
     {
+      "name": "rasmus-guard",
+      "description": "Tjekker ved hver sessionstart om plugins her har nye versioner, gennemgår ændringerne for tegn på hacking og opdaterer kun det, der er rent.",
+      "source": "./plugins/rasmus-guard",
+      "category": "security",
+      "homepage": "https://github.com/rahdotek/rasmus-skills"
+    },
+    {
       "name": "humanizer",
       "description": "Fjerner tegn på AI-skrevet tekst. Original: blader/humanizer.",
       "source": {

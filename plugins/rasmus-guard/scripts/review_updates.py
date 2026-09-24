@@ -2,6 +2,7 @@
 
 Brug: python3 review_updates.py            (læser pending.json fra sessionstart-tjekket)
       python3 review_updates.py --recheck  (tjekker forfra, uden cache)
+      python3 review_updates.py --done     (efter opdatering: ryd cachen)
 Skriver en rapport pr. plugin med røde flag. Ændrer intet.
 """
 import json, os, re, subprocess, sys, tempfile
@@ -85,6 +86,14 @@ def review(u):
 
 
 def main():
+    if "--done" in sys.argv:
+        for f in ("last-check.json", "pending.json"):
+            try:
+                os.remove(os.path.join(cu.data_dir(), f))
+            except OSError:
+                pass
+        print("Cache ryddet. Næste sessionstart tjekker forfra.")
+        return
     if "--recheck" in sys.argv:
         try:
             os.remove(os.path.join(cu.data_dir(), "last-check.json"))

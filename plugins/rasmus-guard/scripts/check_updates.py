@@ -16,7 +16,8 @@ def claude_dir():
 
 
 def data_dir():
-    d = os.environ.get("CLAUDE_PLUGIN_DATA") or os.path.join(claude_dir(), "rasmus-guard")
+    # Fast sted, så sessionstart-tjekket og gennemgangen altid deler de samme filer.
+    d = os.path.join(claude_dir(), "rasmus-guard")
     os.makedirs(d, exist_ok=True)
     return d
 
