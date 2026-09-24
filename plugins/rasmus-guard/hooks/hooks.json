@@ -1,0 +1,13 @@
+{
+  "description": "Tjek for nye versioner af rasmus-skills plugins ved sessionstart",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear",
+        "hooks": [
+          { "type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/check-updates.sh\"", "timeout": 40 }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "rasmus-guard",
+  "version": "1.0.0",
+  "description": "Tjekker ved start af hver Claude Code-session, om plugins i rasmus-skills har nye versioner, og gennemgår ændringerne for tegn på hacking, før de opdateres.",
+  "author": { "name": "Rasmus", "url": "https://github.com/rahdotek" }
+}
