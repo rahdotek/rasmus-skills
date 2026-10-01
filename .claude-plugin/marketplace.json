@@ -93,6 +93,16 @@
       },
       "category": "design",
       "homepage": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "name": "instagram-agent",
+      "description": "13 Instagram-skills: Reels med scorede hooks og beat sheet, niche-research, captions, karruseller, stories, profilscore, ugeplan, kommentarer, DM'er, repurposing, audit og en humanizer. Skriver kun – poster intet.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Jakeschincariol/instagram-agent-skill.git"
+      },
+      "category": "marketing",
+      "homepage": "https://github.com/Jakeschincariol/instagram-agent-skill"
     }
   ]
 }
