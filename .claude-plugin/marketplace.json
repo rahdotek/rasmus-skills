@@ -103,6 +103,16 @@
       },
       "category": "marketing",
       "homepage": "https://github.com/Jakeschincariol/instagram-agent-skill"
+    },
+    {
+      "name": "brag",
+      "description": "Laver en kort launch-video af det projekt, du lige har bygget, via HyperFrames. Inkl. /brag-slim. Kun Claude Code – kræver Node 22+ og FFmpeg.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/latent-spaces/brag.git"
+      },
+      "category": "marketing",
+      "homepage": "https://github.com/latent-spaces/brag"
     }
   ]
 }
