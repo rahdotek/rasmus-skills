@@ -113,6 +113,20 @@
       },
       "category": "marketing",
       "homepage": "https://github.com/latent-spaces/brag"
+    },
+    {
+      "name": "multicam",
+      "description": "Gør én talking-head-optagelse til en virtuel multikamera-klipning (prompt til Google Omni). Kræver Python, ffmpeg og openai-whisper lokalt. Original: aipauloshimas/multicam.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aipauloshimas/multicam.git"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "category": "video",
+      "homepage": "https://github.com/aipauloshimas/multicam"
     }
   ]
 }
