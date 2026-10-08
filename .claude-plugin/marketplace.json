@@ -137,6 +137,16 @@
       },
       "category": "productivity",
       "homepage": "https://github.com/juliusbrussee/caveman"
+    },
+    {
+      "name": "i-have-adhd",
+      "description": "ADHD-venlige svar: næste handling først, nummererede trin, ingen tangenter, ingen indledning eller afslutningsfraser. Start med /i-have-adhd, stop med \"stop adhd mode\". Virker i Claude-appen; always-on-hooken virker kun i Claude Code.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ayghri/i-have-adhd.git"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/ayghri/i-have-adhd"
     }
   ]
 }
