@@ -74,7 +74,7 @@
       "homepage": "https://github.com/microsoft/playwright-cli"
     },
     {
-      "name": "claude-mem",
+      "name": "mem-search",
       "description": "Hukommelse på tværs af Claude Code-sessioner. Kun Claude Code.",
       "source": {
         "source": "git-subdir",
