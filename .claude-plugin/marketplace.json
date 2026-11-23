@@ -147,6 +147,66 @@
       },
       "category": "productivity",
       "homepage": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "name": "marketing-conversion-tracking",
+      "description": "Opsætning, audit og fejlfinding af konverteringssporing til Google Ads, Meta, GA4, LinkedIn og TikTok: GTM, pixels, CAPI, Enhanced Conversions. Original: coreyhaines31/marketingskills.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coreyhaines31/marketingskills.git",
+        "path": "skills/conversion-tracking"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "category": "marketing",
+      "homepage": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "name": "marketing-analytics",
+      "description": "Tracking-planer, GA4/GTM-audit, event-navngivning og UTM'er – og tjek af om tal er regnet rigtigt. Original: coreyhaines31/marketingskills.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coreyhaines31/marketingskills.git",
+        "path": "skills/analytics"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "category": "marketing",
+      "homepage": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "name": "marketing-attribution",
+      "description": "Hvilke kanaler der reelt driver omsætning, platforme der overrapporterer, attributionsmodeller og holdout-tests. Original: coreyhaines31/marketingskills.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coreyhaines31/marketingskills.git",
+        "path": "skills/attribution"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "category": "marketing",
+      "homepage": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "name": "marketing-seo-audit",
+      "description": "Teknisk og on-page SEO-audit af et website med prioriterede rettelser. Original: coreyhaines31/marketingskills.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coreyhaines31/marketingskills.git",
+        "path": "skills/seo-audit"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "category": "marketing",
+      "homepage": "https://github.com/coreyhaines31/marketingskills"
     }
   ]
 }
